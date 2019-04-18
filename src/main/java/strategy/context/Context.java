@@ -1,0 +1,13 @@
+package strategy.context;
+
+public class Context {
+    private Strategy strategy;
+
+    public Context(Strategy strategy) {
+        this.strategy = strategy;
+    }
+
+    public void getResult(){
+        strategy.getResult();
+    }
+}
