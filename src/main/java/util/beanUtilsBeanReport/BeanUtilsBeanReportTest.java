@@ -16,7 +16,7 @@ public class BeanUtilsBeanReportTest {
             userList.add(user);
             userList.add(user);
             List mapList = new ArrayList();
-            //一个List元素中可以包含多个map，一个List集合可以有多个元素
+            //一个List元素中可以包含多个map(一对多)，一个List集合可以有多个元素
             for (User userMap:userList){
                 //这个mapList元素中包含user中三个属性的map值(即3个map对象 key为属性名 value为属性值)
                 mapList.add(BeanUtilsBeanReport.getInstance().describe(userMap));
