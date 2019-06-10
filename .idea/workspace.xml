@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a5bf22b-e5b9-485e-9f15-15181ea1e1c0" name="Default Changelist" comment="" />
-    <list id="8f51a3f3-07c5-4a0a-9c02-7a00d0ab46b1" name="nocommit" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="8a5bf22b-e5b9-485e-9f15-15181ea1e1c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/sort/sortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sql/InsertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sql/InsertUtil.java" afterDir="false" />
     </list>
+    <list id="8f51a3f3-07c5-4a0a-9c02-7a00d0ab46b1" name="nocommit" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -83,30 +79,31 @@
     <session id="-927279018">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="3" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="63" />
+          <entry key="java" value="64" />
           <entry key="将一个对象中的属性名和属性值转成map" value="1" />
           <entry key="线程同步" value="1" />
         </counts>
@@ -114,21 +111,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="64" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="java" value="4491" />
+          <entry key="java" value="4677" />
           <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="4491" />
+          <entry key="JAVA" value="4677" />
           <entry key="PLAIN_TEXT" value="45" />
         </counts>
       </usages-collector>
@@ -139,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sql/InsertUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="961">
+              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,10 +146,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sync/Counter1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/sort/sortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -571,12 +571,13 @@
         <option value="$PROJECT_DIR$/src/main/java/sql/CreateTableUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/joiner/Joiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/joiner/JoinerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sql/InsertUtil.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/java8/convertList/ObjectMapperUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/convertList/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/convertList/UserDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/convertList/OmUTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/sort/sortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sql/InsertUtil.java" />
       </list>
     </option>
   </component>
@@ -647,7 +648,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -680,16 +680,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sync" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559206386100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560137165707" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -722,19 +739,6 @@
   <component name="RunManager" selected="Application.InsertUtil">
     <configuration name="CreateTableUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sql.CreateTableUtil" />
-      <module name="com.design_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sql.DateUtil" />
       <module name="com.design_main" />
       <extension name="coverage">
         <pattern>
@@ -785,20 +789,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.sort.sortTest" />
+      <module name="com.design_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.InsertUtil" />
-      <item itemvalue="Application.DateUtil" />
       <item itemvalue="Application.CreateTableUtil" />
       <item itemvalue="Application.JoinerTest" />
       <item itemvalue="Application.OmUTest" />
+      <item itemvalue="Application.sortTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.InsertUtil" />
+        <item itemvalue="Application.sortTest" />
         <item itemvalue="Application.OmUTest" />
         <item itemvalue="Application.JoinerTest" />
         <item itemvalue="Application.CreateTableUtil" />
-        <item itemvalue="Application.DateUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -839,7 +856,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20373334" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21226667" />
       <window_info id="JRebel" order="6" side_tool="true" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49973333" weight="0.32962137" />
@@ -851,7 +868,7 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49973333" weight="0.36120403" />
+      <window_info active="true" anchor="bottom" id="Debug" order="9" sideWeight="0.49973333" visible="true" weight="0.36120403" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -915,7 +932,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/util/beanUtilsBeanReport/BeanUtilsBean.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/decrateor/coffee/CondimentDecorator.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1107,16 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sql/InsertUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sync/Counter1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1182,6 +1188,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/sort/sortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sql/InsertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="961">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

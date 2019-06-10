@@ -34,22 +34,22 @@ public class InsertUtil {
             ListOracle.add(text.toUpperCase());
         }
         //mysql
-        resultListMysql.add(0, "use bssp;");
+        resultListMysql.add(0, "use bssp;\n");
         ListMysql.stream().forEach(result -> {
             if (result.toUpperCase().contains("INSERT")) {
                 result = result.replace("`","").replace("\'", "''");
                 result = insertPrefixMysql + result + insertSuffixMysql;
-                resultListMysql.add(result);
+                resultListMysql.add(result+"\n");
             }
         });
         //oracle
-        resultListOracle.add(0, "BEGIN");
+        resultListOracle.add(0, "BEGIN\n");
         ListOracle.stream().forEach(resultOracle -> {
             resultOracle = DateUtil.replaceDate(resultOracle);
             resultOracle = resultOracle.replace(";", "").replace("\"", "''").replace("`","").replace("\'", "''");
             if (resultOracle.toUpperCase().contains("INSERT")) {
                 resultOracle = insertPrefixOracle + resultOracle + insertSuffixOracle;
-                resultListOracle.add(resultOracle);
+                resultListOracle.add(resultOracle+"\n");
             }
         });
         resultListOracle.add(resultListOracle.size(), "END;\n/");
