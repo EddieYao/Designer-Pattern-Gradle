@@ -25,7 +25,7 @@ public class InsertUtil {
         StringBuilder stringbuilder = new StringBuilder();
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            //
+            // 11111
             String text = scanner.nextLine().trim();
             if ("".equals(text)) {
                 break;
