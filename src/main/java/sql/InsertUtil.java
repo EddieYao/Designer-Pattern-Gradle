@@ -32,7 +32,7 @@ public class InsertUtil {
             }
             stringbuilder.append(text + "\n");
             ListMysql.add(text);
-            ListOracle.add(text.toUpperCase());
+            ListOracle.add(text);
         }
         //mysql
         resultListMysql.add(0, "use bssp;\n");
