@@ -41,10 +41,10 @@ public class editTableFieldUtil {
                 int tableIndex = result.toUpperCase().indexOf("TABLE");
                 int columnIndex = result.toUpperCase().indexOf("MODIFY COLUMN");
                 String databaseTable = result.substring(tableIndex + 6, columnIndex - 1);
-                String databaseName = Arrays.asList(databaseTable.split("\\.")).get(0);
-                String tableName = Arrays.asList(databaseTable.split("\\.")).get(1);
+                String databaseName = Arrays.asList(databaseTable.split("\\.")).get(0).trim();
+                String tableName = Arrays.asList(databaseTable.split("\\.")).get(1).trim();
                 String columnNameStr = result.substring(result.toUpperCase().indexOf("MODIFY COLUMN") + 13, result.indexOf(";"));
-                String columnName = columnNameStr.substring(columnNameStr.indexOf(" ") + 1, columnNameStr.lastIndexOf(" "));
+                String columnName = columnNameStr.substring(columnNameStr.indexOf(" ") + 1, columnNameStr.lastIndexOf(" ")).trim();
                 result = result.replace("`", "").replace("\'", "''");
                 result = insertPrefixMysql + "\"" + databaseName + "\",\"" + tableName + "\",\"" + columnName + "\",\"" + result + "\"" + insertSuffixMysql;
                 resultListMysql.add(result + "\n");
@@ -59,9 +59,9 @@ public class editTableFieldUtil {
                 int tableIndex = resultOracle.toUpperCase().indexOf("TABLE");
                 int columnIndex = resultOracle.toUpperCase().indexOf("MODIFY COLUMN");
                 String databaseTable = resultOracle.substring(tableIndex + 6, columnIndex - 1);
-                String tableName = Arrays.asList(databaseTable.split("\\.")).get(1).toUpperCase();
+                String tableName = Arrays.asList(databaseTable.split("\\.")).get(1).toUpperCase().trim();
                 String columnNameStr = resultOracle.substring(resultOracle.toUpperCase().indexOf("MODIFY COLUMN") + 13, resultOracle.indexOf(";"));
-                String columnName = columnNameStr.substring(columnNameStr.indexOf(" ") + 1, columnNameStr.lastIndexOf(" ")).toUpperCase();
+                String columnName = columnNameStr.substring(columnNameStr.indexOf(" ") + 1, columnNameStr.lastIndexOf(" ")).toUpperCase().trim();
                 resultOracle = resultOracle.replace("`", "").replace("\'", "''");
                 resultOracle = insertPrefixOracle + tableName + "\",\"" + columnName + "\",\"" + resultOracle + "\"" + insertSuffixOracle;
                 resultOracle = resultOracle.replace(";", "");
