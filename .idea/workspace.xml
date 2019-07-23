@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5bf22b-e5b9-485e-9f15-15181ea1e1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sql/addTableFieldUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sql/editTableFieldUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sql/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sql/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sql/InsertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sql/InsertUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sql/addTableFieldUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sql/addTableFieldUtil.java" afterDir="false" />
     </list>
     <list id="8f51a3f3-07c5-4a0a-9c02-7a00d0ab46b1" name="nocommit" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,7 +79,7 @@
     <session id="-927279018">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="45" />
+          <entry key="project.closed" value="46" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -101,14 +100,14 @@
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="4" />
-          <entry key="project.opened" value="47" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="java" value="79" />
+          <entry key="java" value="80" />
           <entry key="将一个对象中的属性名和属性值转成map" value="1" />
           <entry key="线程同步" value="2" />
         </counts>
@@ -116,21 +115,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="79" />
+          <entry key="JAVA" value="80" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="java" value="4987" />
+          <entry key="java" value="5119" />
           <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="4987" />
+          <entry key="JAVA" value="5119" />
           <entry key="PLAIN_TEXT" value="45" />
         </counts>
       </usages-collector>
@@ -141,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sql/InsertUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
+            <state relative-caret-position="1395">
               <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -153,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/java8/convertList/ObjectMapperUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="682">
               <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
@@ -162,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sql/CreateTableUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="2418">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,7 +183,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/java8/convertList/OmUTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -192,7 +191,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sql/DateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="558">
               <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
             </state>
           </provider>
@@ -201,8 +200,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sql/addTableFieldUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+            <state relative-caret-position="1519">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sql/editTableFieldUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="67" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -559,6 +567,7 @@
         <option value="$PROJECT_DIR$/src/main/java/java8/sort/sortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sql/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/sql/InsertUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sql/editTableFieldUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/sql/addTableFieldUtil.java" />
       </list>
     </option>
@@ -631,7 +640,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -694,10 +702,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563853056754" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563859572473" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -728,26 +737,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.addTableFieldUtil">
+  <component name="RunManager" selected="Application.editTableFieldUtil">
     <configuration name="InsertUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sql.InsertUtil" />
       <module name="com.design_main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JoinerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.joiner.JoinerTest" />
-      <module name="com.design_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.joiner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -781,6 +777,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="editTableFieldUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sql.editTableFieldUtil" />
+      <module name="com.design_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.sort.sortTest" />
       <module name="com.design_main" />
@@ -796,18 +805,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.InsertUtil" />
-      <item itemvalue="Application.JoinerTest" />
       <item itemvalue="Application.OmUTest" />
       <item itemvalue="Application.sortTest" />
       <item itemvalue="Application.addTableFieldUtil" />
+      <item itemvalue="Application.editTableFieldUtil" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.editTableFieldUtil" />
         <item itemvalue="Application.addTableFieldUtil" />
         <item itemvalue="Application.InsertUtil" />
         <item itemvalue="Application.sortTest" />
         <item itemvalue="Application.OmUTest" />
-        <item itemvalue="Application.JoinerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -844,7 +853,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563677689146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加工具类">
+      <created>1563853114057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563853114057</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -856,19 +872,19 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18186666" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.184" />
       <window_info id="JRebel" order="6" side_tool="true" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49973333" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5002667" side_tool="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Console" order="4" sideWeight="0.5008" side_tool="true" weight="0.36120403" />
+      <window_info anchor="bottom" id="JRebel Console" order="4" sideWeight="0.50133336" side_tool="true" weight="0.36120403" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4992" weight="0.36120403" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49866667" weight="0.36120403" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -948,15 +964,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sql/addTableFieldUtil.java</url>
-          <line>43</line>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sql/addTableFieldUtil.java</url>
-          <line>42</line>
+          <line>41</line>
           <properties />
-          <option name="timeStamp" value="34" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -968,6 +984,8 @@
         <watch expression="resultOracle.indexOf(&quot;COMMENT&quot;) + 9" />
         <watch expression="(Map)comment" language="JAVA" />
         <watch expression="databaseTable.split(&quot;.&quot;)" />
+        <watch expression="columnNameStr.indexOf(&quot; &quot;)" />
+        <watch expression="columnNameStr.substring(columnNameStr.indexOf(&quot; &quot;) + 1, columnNameStr.lastIndexOf(&quot; &quot;))" />
       </configuration>
     </watches-manager>
   </component>
@@ -981,9 +999,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/decrateor/coffee/CondimentDecorator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/decrateor/coffee/DarkCoffee.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1201,7 +1216,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sql/InsertUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
+        <state relative-caret-position="1395">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1209,10 +1224,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/convertList/OmUTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/convertList/ObjectMapperUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        <state relative-caret-position="682">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sql/CreateTableUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2418">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,34 +1248,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/convertList/ObjectMapperUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/convertList/OmUTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sql/CreateTableUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sql/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="558">
           <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sql/editTableFieldUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="67" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sql/addTableFieldUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+        <state relative-caret-position="1519">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
         </state>
       </provider>
     </entry>

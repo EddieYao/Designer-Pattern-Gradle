@@ -10,11 +10,11 @@ import java.util.Scanner;
 /**
  * @author yongqiangyao
  */
-public class addTableFieldUtil {
-    public final static String insertPrefixMysql = "CALL addTableField(";
-    public final static String insertSuffixMysql = "');";
+public class editTableFieldUtil {
+    public final static String insertPrefixMysql = "CALL editTableField(";
+    public final static String insertSuffixMysql = ");";
 
-    public final static String insertPrefixOracle = "ADD_TABLE_COLUMN('";
+    public final static String insertPrefixOracle = "MODIFY_TABLE_COLUMN('";
     public final static String insertSuffixOracle = "');";
 
     public static void main(String[] args) {
@@ -39,12 +39,14 @@ public class addTableFieldUtil {
         ListMysql.stream().forEach(result -> {
             if (result.toUpperCase().contains("ALTER")) {
                 int tableIndex = result.toUpperCase().indexOf("TABLE");
-                int columnIndex = result.toUpperCase().indexOf("ADD COLUMN");
+                int columnIndex = result.toUpperCase().indexOf("MODIFY COLUMN");
                 String databaseTable = result.substring(tableIndex + 6, columnIndex - 1);
                 String databaseName = Arrays.asList(databaseTable.split("\\.")).get(0);
                 String tableName = Arrays.asList(databaseTable.split("\\.")).get(1);
+                String columnNameStr = result.substring(result.toUpperCase().indexOf("MODIFY COLUMN") + 13, result.indexOf(";"));
+                String columnName = columnNameStr.substring(columnNameStr.indexOf(" ") + 1, columnNameStr.lastIndexOf(" "));
                 result = result.replace("`", "").replace("\'", "''");
-                result = insertPrefixMysql + "\"" + databaseName + "\",\"" + tableName + "\",\"" + result + insertSuffixMysql;
+                result = insertPrefixMysql + "\"" + databaseName + "\",\"" + tableName + "\",\"" + columnName + "\",\"" + result + "\"" + insertSuffixMysql;
                 resultListMysql.add(result + "\n");
             }
         });
