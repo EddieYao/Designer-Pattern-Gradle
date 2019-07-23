@@ -3,17 +3,18 @@ package sql;
 import com.google.common.base.Joiner;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 /**
  * @author yongqiangyao
  */
-public class InsertUtil {
-    public final static String insertPrefixMysql = "call insertTable('";
+public class addTableFieldUtil {
+    public final static String insertPrefixMysql = "CALL addTableField(";
     public final static String insertSuffixMysql = "');";
 
-    public final static String insertPrefixOracle = "TABLE_INSERT('";
+    public final static String insertPrefixOracle = "ADD_TABLE_COLUMN('";
     public final static String insertSuffixOracle = "');";
 
     public static void main(String[] args) {
@@ -36,25 +37,25 @@ public class InsertUtil {
         //mysql
         resultListMysql.add(0, "use bssp;\n");
         ListMysql.stream().forEach(result -> {
-            if (result.toUpperCase().contains("INSERT")) {
-                result = result.replace("`","").replace("\'", "''");
-                result = insertPrefixMysql + result + insertSuffixMysql;
-                resultListMysql.add(result+"\n");
+            if (result.toUpperCase().contains("ALTER")) {
+                int tableIndex = result.toUpperCase().indexOf("TABLE");
+                int columnIndex = result.toUpperCase().indexOf("ADD COLUMN");
+                String databaseTable = result.substring(tableIndex + 6, columnIndex - 1);
+                String databaseName = Arrays.asList(databaseTable.split("\\.")).get(0);
+                String tableName = Arrays.asList(databaseTable.split("\\.")).get(1);
+                result = result.replace("`", "").replace("\'", "''");
+                result = insertPrefixMysql + "\"" + databaseName + "\",\"" + tableName + "\",\"" + result + insertSuffixMysql;
+                resultListMysql.add(result + "\n");
             }
         });
         //oracle
         resultListOracle.add(0, "BEGIN\n");
         ListOracle.stream().forEach(resultOracle -> {
-            if (resultOracle.toUpperCase().contains("VALUES")) {
-                int insertIndex = resultOracle.toUpperCase().indexOf("INSERT");
-                int valueIndex = resultOracle.toUpperCase().indexOf("VALUES");
-                resultOracle = resultOracle.substring(insertIndex,valueIndex+6).toUpperCase()+resultOracle.substring(valueIndex+6,resultOracle.length());
-            }
             resultOracle = DateUtil.replaceDate(resultOracle);
-            resultOracle = resultOracle.replace(";", "").replace("\"", "''").replace("`","").replace("\'", "''");
-            if (resultOracle.toUpperCase().contains("INSERT")) {
+            resultOracle = resultOracle.replace(";", "").replace("\"", "''").replace("`", "").replace("\'", "''");
+            if (resultOracle.toUpperCase().contains("ALTER")) {
                 resultOracle = insertPrefixOracle + resultOracle + insertSuffixOracle;
-                resultListOracle.add(resultOracle+"\n");
+                resultListOracle.add(resultOracle + "\n");
             }
         });
         resultListOracle.add(resultListOracle.size(), "END;\n/");

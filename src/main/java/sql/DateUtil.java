@@ -19,7 +19,7 @@ public class DateUtil {
             String groupDay = matcher.group(2);
             String monthDay = groupMonth + "-" + groupDay;
             String result = str.substring(str.indexOf(monthDay) - 6, str.indexOf(monthDay) + 15);
-            str = str.replace(result, "null");
+            str = str.replace(result, "NULL");
             System.out.println(str);
         }
     }
@@ -31,7 +31,7 @@ public class DateUtil {
             String groupDay = matcher.group(2);
             String monthDay = groupMonth + "-" + groupDay;
             String result = str.substring(str.indexOf(monthDay) - 6, str.indexOf(monthDay) + 15);
-            str = str.replace(result, "null");
+            str = str.replace(result, "NULL");
             System.out.println(str);
         }
         return str;
