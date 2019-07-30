@@ -12,10 +12,10 @@ import java.util.Scanner;
  */
 public class addTableFieldUtil {
     public final static String insertPrefixMysql = "CALL addTableField(";
-    public final static String insertSuffixMysql = "');";
+    public final static String insertSuffixMysql = "\");";
 
     public final static String insertPrefixOracle = "ADD_TABLE_COLUMN('";
-    public final static String insertSuffixOracle = "');";
+    public final static String insertSuffixOracle = ");";
 
     public static void main(String[] args) {
         List<String> ListMysql = new ArrayList<>();
@@ -55,14 +55,14 @@ public class addTableFieldUtil {
             resultOracle = resultOracle.replace("\"", "''").replace("`", "").replace("\'", "''");
             if (resultOracle.toUpperCase().contains("ALTER")) {
                 int tableIndex = resultOracle.toUpperCase().indexOf("TABLE");
-                int columnIndex = resultOracle.toUpperCase().indexOf("MODIFY COLUMN");
+                int columnIndex = resultOracle.toUpperCase().indexOf("ADD COLUMN");
                 String databaseTable = resultOracle.substring(tableIndex + 6, columnIndex - 1);
                 String tableName = Arrays.asList(databaseTable.split("\\.")).get(1).toUpperCase().trim();
-                String columnNameStr = resultOracle.substring(resultOracle.toUpperCase().indexOf("MODIFY COLUMN") + 13, resultOracle.indexOf(";"));
+                String columnNameStr = resultOracle.substring(resultOracle.toUpperCase().indexOf("ADD COLUMN") + 10, resultOracle.indexOf(";"));
                 String columnName = columnNameStr.substring(columnNameStr.indexOf(" ") + 1, columnNameStr.lastIndexOf(" ")).toUpperCase().trim();
-                resultOracle = resultOracle.replace("`", "").replace("\'", "''");
-                resultOracle = insertPrefixOracle + tableName + "\",\"" + columnName + "\",\"" + resultOracle + "\"" + insertSuffixOracle;
+                resultOracle = resultOracle.replace("`", "");
                 resultOracle = resultOracle.replace(";", "");
+                resultOracle = insertPrefixOracle + tableName + "\",\"" + columnName + "\",\"" + resultOracle + "\"" + insertSuffixOracle;
                 resultListOracle.add(resultOracle + "\n");
             }
         });
