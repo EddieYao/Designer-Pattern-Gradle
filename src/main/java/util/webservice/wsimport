@@ -1,0 +1,1 @@
+wsimport -s D:\webclient\src http:aaa...?wsdl

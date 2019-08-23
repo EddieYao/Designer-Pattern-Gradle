@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5bf22b-e5b9-485e-9f15-15181ea1e1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/httpClientUtils/ManifestShipInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ArrayOfContaInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ArrayOfShipInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ContaInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ContainerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ContainerInfoResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/MainfestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/MainfestInterfaceSoap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ManifestShipInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ManifestShipInfoResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ManifestShipInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/ShipInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/webservice/wsimport" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/httpClientUtils/ThirdApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/httpClientUtils/ThirdApi.java" afterDir="false" />
     </list>
     <list id="8f51a3f3-07c5-4a0a-9c02-7a00d0ab46b1" name="nocommit" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -129,6 +115,7 @@
         <counts>
           <entry key="gradle" value="5" />
           <entry key="java" value="108" />
+          <entry key="wsimport" value="1" />
           <entry key="将一个对象中的属性名和属性值转成map" value="1" />
           <entry key="线程同步" value="2" />
         </counts>
@@ -137,39 +124,28 @@
         <counts>
           <entry key="Groovy" value="5" />
           <entry key="JAVA" value="108" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="8" />
           <entry key="java" value="5522" />
-          <entry key="txt" value="59" />
+          <entry key="txt" value="69" />
+          <entry key="wsimport" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="8" />
           <entry key="JAVA" value="5522" />
-          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="PLAIN_TEXT" value="90" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/webservice/MainfestInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/webservice/MainfestInterfaceSoap.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -226,11 +202,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/webservice/ManifestShipInfoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="527">
+              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/webservice/wsimport">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -239,7 +224,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/util/httpClientUtils/ThirdApi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="715">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -627,6 +612,7 @@
         <option value="$PROJECT_DIR$/src/main/java/util/webservice/ShipInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/webservice/ManifestShipInfoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/httpClientUtils/ThirdApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/webservice/wsimport" />
       </list>
     </option>
   </component>
@@ -724,69 +710,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="convertList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="httpClientUtils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -794,7 +717,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566548454270" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566550702161" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -978,11 +901,19 @@
       <option name="project" value="LOCAL" />
       <updated>1566227166648</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="webservice">
+      <created>1566548812798</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566548812798</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -1065,7 +996,8 @@
     <MESSAGE value="添加工具类" />
     <MESSAGE value="trim() 方法用于删除字符串的头尾空白符。" />
     <MESSAGE value="httpclientutil" />
-    <option name="LAST_COMMIT_MESSAGE" value="httpclientutil" />
+    <MESSAGE value="webservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="webservice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1115,13 +1047,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/decrateor/coffee/Cappuccino.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/decrateor/coffee/Coffee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -1356,6 +1281,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1363,6 +1291,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1464,7 +1395,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/util/httpClientUtils/ThirdApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1473,8 +1404,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/webservice/ManifestShipInfoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="527">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/webservice/wsimport">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
