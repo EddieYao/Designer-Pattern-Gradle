@@ -4,14 +4,20 @@ package util.httpClientUtils;
 import org.apache.commons.httpclient.HttpMethod;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
+import java.io.IOException;
+import java.text.MessageFormat;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -48,6 +54,44 @@ public class HttpClientUtil {
             if (response2.getStatusLine().getStatusCode() == 200) {
                 responseJson = EntityUtils.toString(response2.getEntity(), "utf-8");
             }
+        } finally {
+            this.httpClient.getConnectionManager().closeExpiredConnections();
+            this.httpClient.getConnectionManager().closeIdleConnections(30L, TimeUnit.SECONDS);
+        }
+
+        return responseJson;
+    }
+    public String executeByGET(String url, Object[] params) {
+        String messages = MessageFormat.format(url, params);
+        HttpGet get = new HttpGet(messages);
+        ResponseHandler<String> responseHandler = new BasicResponseHandler();
+        String responseJson = null;
+
+        try {
+            responseJson = (String)this.httpClient.execute(get, responseHandler);
+        } catch (ClientProtocolException var12) {
+            var12.printStackTrace();
+        } catch (IOException var13) {
+            var13.printStackTrace();
+        } finally {
+            this.httpClient.getConnectionManager().closeExpiredConnections();
+            this.httpClient.getConnectionManager().closeIdleConnections(30L, TimeUnit.SECONDS);
+        }
+
+        return responseJson;
+    }
+
+    public String executeByGET(String url) {
+        HttpGet get = new HttpGet(url);
+        ResponseHandler<String> responseHandler = new BasicResponseHandler();
+        String responseJson = null;
+
+        try {
+            responseJson = (String)this.httpClient.execute(get, responseHandler);
+        } catch (ClientProtocolException var10) {
+            var10.printStackTrace();
+        } catch (IOException var11) {
+            var11.printStackTrace();
         } finally {
             this.httpClient.getConnectionManager().closeExpiredConnections();
             this.httpClient.getConnectionManager().closeIdleConnections(30L, TimeUnit.SECONDS);

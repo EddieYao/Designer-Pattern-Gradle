@@ -29,7 +29,6 @@ public interface MainfestInterfaceSoap {
      * @param wharf
      * @param imo
      * @param shipName
-     * @param platform
      * @return
      *     returns org.tempuri.ArrayOfShipInfo
      */
@@ -45,9 +44,7 @@ public interface MainfestInterfaceSoap {
             @WebParam(name = "imo", targetNamespace = "http://tempuri.org/")
                     String imo,
             @WebParam(name = "wharf", targetNamespace = "http://tempuri.org/")
-                    String wharf,
-            @WebParam(name = "platform", targetNamespace = "http://tempuri.org/")
-                    String platform);
+                    String wharf);
 
     /**
      * 
