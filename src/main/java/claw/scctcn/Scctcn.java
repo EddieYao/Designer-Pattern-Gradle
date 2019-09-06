@@ -1,15 +1,13 @@
 package claw.scctcn;
 
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 /**
  * @author yongqiangyao
  * 获取数据
  */
-@Getter
-@Setter
+@Data
 public class Scctcn {
     private String dbId;
     private String containerOwner;
