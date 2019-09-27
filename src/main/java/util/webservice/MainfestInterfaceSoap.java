@@ -44,7 +44,9 @@ public interface MainfestInterfaceSoap {
             @WebParam(name = "imo", targetNamespace = "http://tempuri.org/")
                     String imo,
             @WebParam(name = "wharf", targetNamespace = "http://tempuri.org/")
-                    String wharf);
+                    String wharf,
+            @WebParam(name = "containerId", targetNamespace = "http://tempuri.org/")
+                    String containerId);
 
     /**
      * 
