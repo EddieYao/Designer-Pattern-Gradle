@@ -1,5 +1,6 @@
 package singlewindow;
 
+import com.alibaba.fastjson.JSONObject;
 import util.httpClientUtils.HttpClientUtil;
 
 import java.util.HashMap;
@@ -21,6 +22,8 @@ public class SingleWindow {
         params.put("userCode","4422930877");
         params.put("password","xb888888");
         String ajaxResultStr = clientUtil.executeByPOST(url,params);
-        System.out.println(ajaxResultStr);
+        JSONObject jsonObject = (JSONObject) JSONObject.parse(ajaxResultStr.replace("<\\/","</"));
+        String xml = (String) jsonObject.get("message");
+        System.out.println(xml);
     }
 }
