@@ -31,14 +31,16 @@ public class BerthPlan {
         JSONObject jsonObject = (JSONObject) JSONObject.parse(ajaxResultStr);
         JSONArray jsonArray = (JSONArray) jsonObject.get("data");
         if (jsonArray != null && jsonArray.size() > 0) {
-            List array = jsonArray.stream().filter(e -> (("MSC NAOMI").equals(((JSONObject)e).get("Vessel_Name")))).collect(Collectors.toList());
-            JSONObject josnObjectResult = (JSONObject) array.get(0);
-            String vesselName = (String) josnObjectResult.get("Vessel_Name");
-            String inmarsat = (String) josnObjectResult.get("inmarsat");
-            String inVoy = (String) josnObjectResult.get("IN_VOY");
-            String outVoy = (String) josnObjectResult.get("OUT_VOY");
-            String etd = (String) josnObjectResult.get("ETD");
-            System.out.println("船名：" + vesselName + "\nimo：" + inmarsat + "\n进口航次号：" + inVoy + "\n出口航次号：" + outVoy + "\n预计开船日期：" + sdfTime.format(sdfTTime.parse(etd)));
+            List array = jsonArray.stream().filter(e -> (("MSC NAOMI").equals(((JSONObject) e).get("Vessel_Name")))).collect(Collectors.toList());
+            if (array != null && array.size() > 0) {
+                JSONObject josnObjectResult = (JSONObject) array.get(0);
+                String vesselName = (String) josnObjectResult.get("Vessel_Name");
+                String inmarsat = (String) josnObjectResult.get("inmarsat");
+                String inVoy = (String) josnObjectResult.get("IN_VOY");
+                String outVoy = (String) josnObjectResult.get("OUT_VOY");
+                String etd = (String) josnObjectResult.get("ETD");
+                System.out.println("船名：" + vesselName + "\nimo：" + inmarsat + "\n进口航次号：" + inVoy + "\n出口航次号：" + outVoy + "\n预计开船日期：" + sdfTime.format(sdfTTime.parse(etd)));
+            }
         }
         System.out.println(ajaxResultStr);
     }

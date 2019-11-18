@@ -21,7 +21,8 @@ public class Inventory {
             String operator = (String) josnObjectResult.get("OPERATOR");
             String pol = (String) josnObjectResult.get("POL");
             String pod = (String) josnObjectResult.get("POD");
-            System.out.println("箱状态：" + fE + "\n封条号：" + operator + "\n箱属：" + sealNo3 + "\n装货港：" + pol + "\n卸货港：" + pod);
+            String bookingNo = (String) josnObjectResult.get("BOOKING_NO");
+            System.out.println("箱状态：" + fE + "\n封条号：" + operator + "\n箱属：" + sealNo3 + "\n装货港：" + pol + "\n卸货港：" + pod+ "\n订舱单号：" + bookingNo);
         }
         System.out.println(ajaxResultStr);
     }
