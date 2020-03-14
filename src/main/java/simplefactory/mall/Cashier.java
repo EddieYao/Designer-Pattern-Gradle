@@ -1,4 +1,4 @@
-package simpleFactory.mall;
+package simplefactory.mall;
 
 /**
  * 抽象的意义:对代码的维护和重用。

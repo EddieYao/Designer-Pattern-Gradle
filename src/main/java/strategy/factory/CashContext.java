@@ -1,6 +1,6 @@
 package strategy.factory;
 
-import simpleFactory.mall.*;
+import simplefactory.mall.*;
 
 /**
  * 策略模式 + 简单工厂模式

@@ -1,9 +1,11 @@
-package enumTest;
+package enumtest;
 
 public class ColorEnum {
     public static void main(String[] args) {
         enmuTest(ColorEnum2.BLACK);
         enmuTest2(DataBase.mysql);
+        System.out.println("--------------");
+        System.out.println(DataBase.getById(1));
     }
 
     public static void enmuTest(ColorEnum2 type) {
@@ -52,6 +54,16 @@ public class ColorEnum {
 
         int returnCode() {
             return code;
+        }
+
+        public static DataBase getById(Integer id) {
+            for (DataBase transactType : values()) {
+                if (transactType.code == id) {
+                    //获取指定的枚举
+                    return transactType;
+                }
+            }
+            return null;
         }
     }
 }

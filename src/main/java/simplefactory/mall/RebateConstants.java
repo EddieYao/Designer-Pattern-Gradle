@@ -1,4 +1,4 @@
-package simpleFactory.mall;
+package simplefactory.mall;
 
 public class RebateConstants {
     //无折扣

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5bf22b-e5b9-485e-9f15-15181ea1e1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumTest/ColorEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <list id="8f51a3f3-07c5-4a0a-9c02-7a00d0ab46b1" name="nocommit" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,7 +82,7 @@
     <session id="-927279018">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="94" />
+          <entry key="project.closed" value="95" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -139,16 +136,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="50" />
-          <entry key="java" value="7720" />
-          <entry key="txt" value="91" />
+          <entry key="java" value="7813" />
+          <entry key="txt" value="95" />
           <entry key="wsimport" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="50" />
-          <entry key="JAVA" value="7720" />
-          <entry key="PLAIN_TEXT" value="112" />
+          <entry key="JAVA" value="7813" />
+          <entry key="PLAIN_TEXT" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -194,11 +191,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/enumTest/ColorEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="-145">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -746,7 +745,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584155864444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584156180933" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -795,11 +794,11 @@
       </method>
     </configuration>
     <configuration name="ColorEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumTest.ColorEnum" />
+      <option name="MAIN_CLASS_NAME" value="enumtest.ColorEnum" />
       <module name="com.design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumTest.*" />
+          <option name="PATTERN" value="enumtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1022,12 +1021,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576042071031</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Enum">
+      <created>1584155886349</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1584155886349</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -1041,12 +1046,12 @@
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5002667" side_tool="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Console" order="4" sideWeight="0.5029333" side_tool="true" visible="true" weight="0.40022296" />
+      <window_info anchor="bottom" id="JRebel Console" order="4" sideWeight="0.5029333" side_tool="true" weight="0.40022296" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="5" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Debug" order="9" sideWeight="0.49706668" visible="true" weight="0.40022296" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49706668" weight="0.40022296" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -1112,7 +1117,8 @@
     <MESSAGE value="httpclientutil" />
     <MESSAGE value="webservice" />
     <MESSAGE value="String.format用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="String.format用法" />
+    <MESSAGE value="Enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1543,11 +1549,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/enumTest/ColorEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="-145">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
           </folding>
         </state>
       </provider>

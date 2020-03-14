@@ -1,4 +1,4 @@
-package simpleFactory.mall;
+package simplefactory.mall;
 
 /**
  * 工厂类只负责创建对象，同时初始化对象

@@ -1,4 +1,4 @@
-package simpleFactory.calculator;
+package simplefactory.calculator;
 
 /**
  *

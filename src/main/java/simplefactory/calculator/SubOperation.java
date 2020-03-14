@@ -1,4 +1,4 @@
-package simpleFactory.calculator;
+package simplefactory.calculator;
 //继承
 public class SubOperation extends Operation{
     //多态

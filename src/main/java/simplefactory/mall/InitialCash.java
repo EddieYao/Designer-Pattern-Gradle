@@ -1,4 +1,4 @@
-package simpleFactory.mall;
+package simplefactory.mall;
 
 public class InitialCash extends CashSup{
     @Override
