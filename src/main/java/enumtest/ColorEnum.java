@@ -2,10 +2,16 @@ package enumtest;
 
 public class ColorEnum {
     public static void main(String[] args) {
+        // 枚举类switch case
         enmuTest(ColorEnum2.BLACK);
         enmuTest2(DataBase.mysql);
+        // 前端传入枚举类（字符串），可直接获取枚举数值
+        System.out.println(DataBase.valueOf("mysql").returnCode());
+        // 传入枚举类数值获取枚举类
         System.out.println("--------------");
         System.out.println(DataBase.getById(1));
+        // 根据传入id获取值
+        System.out.println(MessageEnum.getValueById(0));
     }
 
     public static void enmuTest(ColorEnum2 type) {
@@ -61,6 +67,56 @@ public class ColorEnum {
                 if (transactType.code == id) {
                     //获取指定的枚举
                     return transactType;
+                }
+            }
+            return null;
+        }
+    }
+    public enum MessageEnum {
+        success_0(0,"success"),
+        fail_1(1,"fial");
+        private int code;
+        private String message;
+
+        MessageEnum(int code,String message) {
+            this.code = code;
+            this.message = message;
+        }
+
+        int returnCode() {
+            return code;
+        }
+
+        public int getCode() {
+            return code;
+        }
+
+        public void setCode(int code) {
+            this.code = code;
+        }
+
+        public String getMessage() {
+            return message;
+        }
+
+        public void setMessage(String message) {
+            this.message = message;
+        }
+
+        public static MessageEnum getEnumById(Integer id) {
+            for (MessageEnum transactType : values()) {
+                if (transactType.code == id) {
+                    //获取指定的枚举
+                    return transactType;
+                }
+            }
+            return null;
+        }
+        public static String getValueById(Integer id) {
+            for (MessageEnum transactType : values()) {
+                if (transactType.code == id) {
+                    //获取指定的枚举
+                    return transactType.message;
                 }
             }
             return null;
