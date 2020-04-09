@@ -3,6 +3,7 @@ package simplefactory.calculator;
 import java.util.Scanner;
 
 /**
+ * @author yyq
  * 界面
  * 客户端类ViewResult
  * 算法类Operation 算法子类 - AddOperation 、MulOperation
