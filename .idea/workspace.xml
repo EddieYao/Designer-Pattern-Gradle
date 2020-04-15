@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5bf22b-e5b9-485e-9f15-15181ea1e1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sync/JavaThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/optional/OptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/optional/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simplefactory/简单工厂模式" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simplefactory/简单工厂模式" afterDir="false" />
     </list>
     <list id="8f51a3f3-07c5-4a0a-9c02-7a00d0ab46b1" name="nocommit" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -87,12 +87,12 @@
     <session id="-927279018">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="103" />
+          <entry key="project.closed" value="104" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="4" />
           <entry key="project.open.time.23" value="3" />
@@ -120,13 +120,13 @@
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="106" />
+          <entry key="project.opened" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="8" />
-          <entry key="java" value="180" />
+          <entry key="java" value="182" />
           <entry key="sql" value="1" />
           <entry key="wsimport" value="1" />
           <entry key="分支测试" value="1" />
@@ -139,7 +139,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="8" />
-          <entry key="JAVA" value="180" />
+          <entry key="JAVA" value="182" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="SQL" value="1" />
         </counts>
@@ -148,8 +148,8 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="gradle" value="50" />
-          <entry key="java" value="9145" />
-          <entry key="txt" value="133" />
+          <entry key="java" value="9520" />
+          <entry key="txt" value="136" />
           <entry key="wsimport" value="21" />
           <entry key="简单工厂模式" value="50" />
         </counts>
@@ -157,8 +157,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="50" />
-          <entry key="JAVA" value="9145" />
-          <entry key="PLAIN_TEXT" value="208" />
+          <entry key="JAVA" value="9520" />
+          <entry key="PLAIN_TEXT" value="211" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -171,20 +171,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sync/线程同步">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sync/PrintAlternate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/simplefactory/database/IDatabaseService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -239,14 +225,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sync/JavaThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="589">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/optional/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding>
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/optional/OptionalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2048">
+              <caret line="41" column="62" lean-forward="true" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -255,7 +261,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="38378">
               <caret line="1295" column="11" selection-start-line="1295" selection-start-column="11" selection-end-line="1295" selection-end-column="11" />
             </state>
           </provider>
@@ -611,8 +617,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/java8/convertList/UserDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/java8/convertList/OmUTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/sort/sortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sql/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/sql/editTableFieldUtil.java" />
@@ -662,6 +666,8 @@
         <option value="$PROJECT_DIR$/src/main/java/simplefactory/database/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/simplefactory/简单工厂模式" />
         <option value="$PROJECT_DIR$/src/main/java/sync/JavaThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/optional/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/optional/OptionalTest.java" />
       </list>
     </option>
   </component>
@@ -763,7 +769,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterGradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="optional" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -774,7 +789,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586509639226" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586921198477" />
     <property name="last_opened_file_path" value="D:/backend" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -809,86 +827,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JavaThreadPool">
-    <configuration name="ColorEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumtest.ColorEnum" />
+  <component name="RunManager" selected="JUnit.OptionalTest.whenCheckIfPresent_thenOk">
+    <configuration name="OptionalTest.givenPresentValue_whenCompare_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumtest.*" />
+          <option name="PATTERN" value="java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.optional" />
+      <option name="MAIN_CLASS_NAME" value="java8.optional.OptionalTest" />
+      <option name="METHOD_NAME" value="givenPresentValue_whenCompare_thenOk" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sync.JavaThreadPool" />
+    <configuration name="OptionalTest.testNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sync.*" />
+          <option name="PATTERN" value="java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.optional" />
+      <option name="MAIN_CLASS_NAME" value="java8.optional.OptionalTest" />
+      <option name="METHOD_NAME" value="testNull" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.convertList.User" />
+    <configuration name="OptionalTest.whenCheckIfPresent_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.convertList.*" />
+          <option name="PATTERN" value="java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.optional" />
+      <option name="MAIN_CLASS_NAME" value="java8.optional.OptionalTest" />
+      <option name="METHOD_NAME" value="whenCheckIfPresent_thenOk" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simplefactory.database.main" />
+    <configuration name="OptionalTest.whenMap_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simplefactory.database.*" />
+          <option name="PATTERN" value="java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.optional" />
+      <option name="MAIN_CLASS_NAME" value="java8.optional.OptionalTest" />
+      <option name="METHOD_NAME" value="whenMap_thenOk" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.main" />
+    <configuration name="OptionalTest.whenThrowException_thenOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java8.optional" />
+      <option name="MAIN_CLASS_NAME" value="java8.optional.OptionalTest" />
+      <option name="METHOD_NAME" value="whenThrowException_thenOk" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ColorEnum" />
-      <item itemvalue="Application.User" />
-      <item itemvalue="Application.main" />
-      <item itemvalue="Application.main (1)" />
-      <item itemvalue="Application.JavaThreadPool" />
+      <item itemvalue="JUnit.OptionalTest.givenPresentValue_whenCompare_thenOk" />
+      <item itemvalue="JUnit.OptionalTest.whenThrowException_thenOk" />
+      <item itemvalue="JUnit.OptionalTest.whenMap_thenOk" />
+      <item itemvalue="JUnit.OptionalTest.testNull" />
+      <item itemvalue="JUnit.OptionalTest.whenCheckIfPresent_thenOk" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaThreadPool" />
-        <item itemvalue="Application.main (1)" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.User" />
-        <item itemvalue="Application.ColorEnum" />
+        <item itemvalue="JUnit.OptionalTest.whenCheckIfPresent_thenOk" />
+        <item itemvalue="JUnit.OptionalTest.testNull" />
+        <item itemvalue="JUnit.OptionalTest.whenMap_thenOk" />
+        <item itemvalue="JUnit.OptionalTest.whenThrowException_thenOk" />
+        <item itemvalue="JUnit.OptionalTest.givenPresentValue_whenCompare_thenOk" />
       </list>
     </recent_temporary>
   </component>
@@ -1093,8 +1126,47 @@
       <option name="project" value="LOCAL" />
       <updated>1586485746533</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="线程池">
+      <created>1586509729145</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1586509729145</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OptionalTest_whenValueNotNull_thenIgnoreDefault - 2020.04.14 at 17h 50m 38s.xml">
+      <configuration name="OptionalTest.whenValueNotNull_thenIgnoreDefault" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_givenEmptyValue_whenCompare_thenOk - 2020.04.14 at 17h 52m 47s.xml">
+      <configuration name="OptionalTest.givenEmptyValue_whenCompare_thenOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_givenPresentValue_whenCompare_thenOk - 2020.04.14 at 17h 55m 17s.xml">
+      <configuration name="OptionalTest.givenPresentValue_whenCompare_thenOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_givenPresentValue_whenCompare_thenOk - 2020.04.14 at 17h 55m 43s.xml">
+      <configuration name="OptionalTest.givenPresentValue_whenCompare_thenOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_whenThrowException_thenOk - 2020.04.14 at 17h 58m 45s.xml">
+      <configuration name="OptionalTest.whenThrowException_thenOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_whenMap_thenOk - 2020.04.14 at 18h 01m 34s.xml">
+      <configuration name="OptionalTest.whenMap_thenOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_whenMap_thenOk - 2020.04.14 at 18h 02m 10s.xml">
+      <configuration name="OptionalTest.whenMap_thenOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_testNull - 2020.04.15 at 10h 27m 48s.xml">
+      <configuration name="OptionalTest.testNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_testNull - 2020.04.15 at 10h 28m 15s.xml">
+      <configuration name="OptionalTest.testNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OptionalTest_whenCheckIfPresent_thenOk - 2020.04.15 at 11h 25m 43s.xml">
+      <configuration name="OptionalTest.whenCheckIfPresent_thenOk" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1105,7 +1177,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17973334" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18186666" />
       <window_info id="JRebel" order="6" side_tool="true" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49973333" weight="0.32887402" />
@@ -1187,7 +1259,8 @@
     <MESSAGE value="单例模式" />
     <MESSAGE value="工厂模式复习" />
     <MESSAGE value="单例模式+工厂模式+多线程调用数据库实例方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式+工厂模式+多线程调用数据库实例方法" />
+    <MESSAGE value="线程池" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程池" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1223,20 +1296,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/webservice/MainfestInterfaceSoap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/httpClientUtils/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/claw/scctcn/ScctnInfoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
@@ -1484,9 +1543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1551,18 +1607,34 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="38378">
           <caret line="1295" column="11" selection-start-line="1295" selection-start-column="11" selection-end-line="1295" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sync/JavaThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="589">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/optional/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/optional/OptionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2048">
+          <caret line="41" column="62" lean-forward="true" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
